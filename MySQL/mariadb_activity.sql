@@ -27,7 +27,7 @@ SELECT * FROM students;
 SELECT * FROM students WHERE course = 'BSIT';
 SELECT * FROM students WHERE year_level >= 2;
 
--- Part 10: Add Another Student (Replace [YOUR NAME])
+-- Part 10: Add Another Student
 INSERT INTO students (name, course, year_level)
 VALUES ('Dawn Barsatan', 'BSIT', 3);
 SELECT * FROM students;
